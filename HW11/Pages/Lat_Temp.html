@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang = "en-us">
+    <head>
+        <meta charset="UTF-8">
+        <title>Latitude vs Temperature</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+      
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+              <a class="navbar-brand" href="/Pages/Index.html">Lattitude</a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Plots
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="/Pages/Lat_Temp.html">Latitude vs Temperature</a>
+                      <a class="dropdown-item" href="/Pages/Lat_Hmdty.html">Latitude vs Humidity</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="/Pages/Lat_Cloud.html">Latitude vs Cloudiness</a>
+                      <a class="dropdown-item" href="/Pages/Lat_WindSpeed.html">Latitude vs Wind Speed</a>
+                    </div>
+                  </li>
+                  <li class="nav-item active">
+                      <a class="nav-link" href="/Pages/Comparison.html">Comparison<span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="/Pages/Data.html">Data</a>
+                  </li>
+                </ul>
+                
+              </div>
+            </nav>
+            <link rel="stylesheet" href="/Styles/pageStylings.css">
+    </head>
+    <body>
+            <div class = "container">
+                    <div class = "row">
+                      <div class = "col-sm-12 col-md-8">
+                        <h2>Max Temperature</h2><hr>
+                        <img src = "/Resources/Images/Fig1.png" alt = "Latitude vs Temp" height = 300 width = 400>
+                        <p>As expected, the weather becomes significantly warmer as one approaches the 
+                           equator. More interestingly, the southern hemisphere tends to be warmer this
+                           time of year than the northern hemisphere. This may be due to the tilt of the
+                           earth at the time of the year this data was gathered. 
+                        </p>
+                      </div>
+            
+                      <div class = "col-sm-12 col-md-4">
+                        <h2>Visualizations</h2><hr>
+                        <a href="/Pages/Lat_Temp.html"><img src = "/Resources/Images/Fig1.png" alt = "Latitude vs Temp"
+                          height="300" width = "400"></a><hr>
+                        <a href="/Pages/Lat_Hmdty.html"><img src = "/Resources/Images/Fig2.png" alt = "Latitude vs Humidity"
+                          height="300" width = "400"></a><hr>
+                        <a href="/Pages/Lat_Cloud.html"><img src = "/Resources/Images/Fig3.png" alt = "Latitude vs Cloudiness"
+                          height="300" width = "400"></a><hr>
+                        <a href="/Pages/Lat_WindSpeed.html"><img src = "/Resources/Images/Fig4.png" alt = "Latitude vs Wind speed"
+                          height="300" width = "400"></a>
+                      </div>
+                    </div>
+                  </div>
+
+    </body>
+</html>
