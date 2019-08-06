@@ -1,0 +1,2 @@
+					SUMMARY
+The deep learning model had an accuracy of about 87.6%, while the support vector machine had an accuracy of about 85.2% when applied to the test data. Using a grid search to optimize parameters of the svm model resulted in a slightly improved accuracy of 88.3%. Implementing reugularization in the svm could potentially help the model to generalize better, since there are lots of features being used to train.
